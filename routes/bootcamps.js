@@ -2,13 +2,13 @@ const express = require('express');
 const { getBootcamps, getBootcamp, createBootcamp, updateBootcamp, deleteBootcamp, getBootcampsInRadius, bootcampPhotoUpload } = require('../controllers/bootcamps');
 
 const Bootcamp = require('../models/Bootcamp');
-const advancedResults = require('../middleware/advancedResults');
 
 // INCLUDE OTHER RESOURCE ROUTERS
 const courseRouter = require('./courses');
 
 const router = express.Router();
 
+const advancedResults = require('../middleware/advancedResults');
 const { protect, authorise } = require('../middleware/auth');
 
 // RE-ROUTE INTO OTHER RESOURCE ROUTERS
