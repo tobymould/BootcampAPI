@@ -4,7 +4,8 @@
   "description": "Bootcamp backend API",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production node server",
+    "start": "node server.js",
+    "prod": "NODE_ENV=production node server",
     "dev": "nodemon server"
   },
   "author": "Toby Mould",
@@ -31,5 +32,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
