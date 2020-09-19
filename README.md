@@ -5,7 +5,7 @@
    - __Status:__ COMPLETE 
 
 ## :hammer: Languages/Tools :hammer:
-__Node.js | Express | MongoDB | Mongoose | POSTMAN | Heroku
+__Node.js | Express | MongoDB | Mongoose | POSTMAN | Heroku__
 
 # API Documentation
 API Documentation: https://documenter.getpostman.com/view/11809015/TVCcX9LA
