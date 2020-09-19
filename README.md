@@ -8,32 +8,26 @@
 __Node.js | Express | MongoDB | Mongoose | POSTMAN | Heroku__
 
 ## 🔬 Notable Features 🔬
-
-
 1. __CRUD__ - Create|Read|Update|Delete operations to change Bootcamp entries inside an external MongoDB database. :books:
 2. __Backend__ - Run using NodeJS/Express with MongoDB/Mongoose hosted on Heroku.
 3. __Authentication__ - E-mail authentication :cop: to enable/deny access to access user owned Bootcamp entries. 
 4. __Authorisation__ - User-specific collections of documents as JSON objects :bookmark: which can be seen publically but only edited by the designated creator of the entry as admin.
-5. __Responsive Styles__ - Use of modern CSS practices using Sass preprocessor :nail_care: to make a nicely styled user interface.
-6. __GeoLocation__ - Conversion of user-input address to coordinates:earth_africa: to generate lists of Bootcamps within a specified radius.
-7. __Calculation__ - adding up the total of each bootcamp :heavy_plus_sign: based on the sum of each individual cost.
+5. __Routing__ - Routing with data schema, modeling, sanitisation and presenation
+6. __Security__ - Implementation of some basic security features via __Jason Web Tokens__
+7. __GeoLocation__ - Conversion of user-input address to coordinates:earth_africa: to generate lists of Bootcamps within a specified radius.
+8. __Calculation__ - adding up the total of each bootcamp :heavy_plus_sign: based on the sum of each individual cost.
+9. __Error-Handling__ - Development of Error-handling middleware
 
 ## :chart_with_upwards_trend: How to Use :chart_with_upwards_trend:
 ### Installation
 You will need the following downloads:
-1. POSTMAN
+1. POSTMAN - App available on their [website](https://www.postman.com/downloads/)
 ### Try for yourself :raised_hands:
 1. Visit the [Bootcamp API website](https://bootcamp-api-project.herokuapp.com/)
-2. Review the full list of possible HTTP actions available  :shipit:
-3. Add either an income source :money_with_wings: or expense (prepend with a '-:moneybag:') with the name of the entry!
-4. See your total left over!
-5. Log out 
-
+2. Review the full list of possible HTTP actions available. :shipit:
+3. Open up the POSTMAN application!
+4. Replicate the actions you wish to inside the POSTMAN app.
+5. See the result!
 
 # API Documentation
 API Documentation: https://documenter.getpostman.com/view/11809015/TVCcX9LA
-
-(1) MongoDB Atlas database capable of all CRUD functionality
-(2) Development of Error-handling middleware
-(3) Implementation of authentication, authorisation and some basic security features via Jason Web Tokens
-(4) Routing with data schema, modeling, sanitisation and presenation
