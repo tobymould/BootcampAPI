@@ -1,11 +1,11 @@
 # Bootcamp API ReadMe 💷 :nerd_face:
-> React Firebase Website enabling the search of Github.com User profiles en masse.
+> Node-express API enabling the search of Bootcamps.
 
 ## :satellite: Summary :satellite:
    - __Status:__ COMPLETE 
 
 ## :hammer: Languages/Tools :hammer:
-__React.js | Sass | CSS3 | HTML5 | Firebase__
+__Node.js | Express | MongoDB | Mongoose | POSTMAN | Heroku
 
 # API Documentation
 API Documentation: https://documenter.getpostman.com/view/11809015/TVCcX9LA
