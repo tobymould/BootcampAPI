@@ -19,12 +19,12 @@ __Node.js | Express | MongoDB | Mongoose | POSTMAN | Heroku__
 7. __Calculation__ - adding up the total of each bootcamp :heavy_plus_sign: based on the sum of each individual cost.
 
 ## :chart_with_upwards_trend: How to Use :chart_with_upwards_trend:
-### Watch a demo :movie_camera:
-Visit my [portfolio website](https://tobymould.com/) and select the __'Expense Tracker App'__ project button :black_square_button: for a visual 30 second demonstration.
-
+### Installation
+You will need the following downloads:
+1. POSTMAN
 ### Try for yourself :raised_hands:
-1. Visit the [chatroom website](https://expense-tracker-223d5.web.app/)
-2. Log in via your google account :shipit:
+1. Visit the [Bootcamp API website](https://bootcamp-api-project.herokuapp.com/)
+2. Review the full list of possible HTTP actions available  :shipit:
 3. Add either an income source :money_with_wings: or expense (prepend with a '-:moneybag:') with the name of the entry!
 4. See your total left over!
 5. Log out 
